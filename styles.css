@@ -329,6 +329,17 @@ nav ul.showing {
     background-color:#050C9C;
     color: #f0f0f0;
     font-size: 20px;
+    gap: 10px;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.y{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .gallery{
