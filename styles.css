@@ -318,10 +318,7 @@ nav ul.showing {
 .home{
     display: flex;
     justify-content: flex-start;
-     height: 30px;
-
-}
-
+    height: 30px;
 
 }
 .Follow{
