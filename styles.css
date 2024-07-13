@@ -318,7 +318,15 @@ nav ul.showing {
 .home{
     display: flex;
     justify-content: flex-start;
+     height: 30px;
 
+}
+
+
+}
+.Follow{
+    text-align: left;
+    height: 20px;
 }
 
 .gallery{
