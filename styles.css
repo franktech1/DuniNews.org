@@ -334,12 +334,12 @@ nav ul.showing {
 .k{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 .y{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .gallery{
