@@ -336,12 +336,12 @@ nav ul.showing {
 .k{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 .y{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     text-decoration: none;
 }
 
