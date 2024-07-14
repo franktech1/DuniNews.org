@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    text-decoration: none;
 }
 
 header {
@@ -290,7 +291,8 @@ nav ul.showing {
 }
 
 .social-media ul li a:hover {
-    text-decoration: underline;
+ text-decoration: none;
+
 }
 
 .social-icons {
@@ -339,7 +341,8 @@ nav ul.showing {
 .y{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
+    text-decoration: none;
 }
 
 .gallery{
