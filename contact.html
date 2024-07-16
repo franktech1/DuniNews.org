@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - DuniaNews.org</title>
-    <link rel="shortcut icon" href="./lg-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./logoicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script defer src="script.js"></script>
+    
 </head>
 <body>
     <header>
-        <div>
-            <img src="./font.jpg" alt="DuniaNews247" height="170" class="head">
+        <div class="container">
+            <img src="font.jpg" width="500px" height="150px">
         </div>
     </header>
     
@@ -21,54 +25,48 @@
                 &#9776;
             </div>
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="contact.html">CONTACT US</a></li>
-                <li><a href="privacy.html">PRIVACY POLICY</a></li>
-                <li> <a href="">CATEGORIES</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="crime.html">Crime</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <section class="contact-section">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, feel free to reach out to us:</p>
-            <p><strong><h3><img src="adre.png" width="40" height="30">15 Ejiro Akpohornor Street, Kado Lifecamp Abuja, Nigeria.</h3> </strong> </p>
-            <p><strong><h3><img src="OIP.jpg" width="30" height="20" style="gap: 15px;">       dunianews247@gmail.com</h3></strong></p>
-            <p><strong><h3><img src="call.jpg" width="60" height="25">+2348123 456 789</h3></strong> </p>
-            <p><strong><h3><img src="wat.png" width="60" height="25" >+2348188837774</h3></strong></p>
-            
-            
-        </section>
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us:</p>
+        <p>
+            <i class="fas fa-map-marker-alt"></i>15 Ejiro Akpohornor Street, Kado Lifecamp Abuja, Nigeria.<br>
+            <i class="fas fa-envelope"></i>  dunianews247@gmail.com<br>
+            <i class="fas fa-phone"></i>+2348123 456 789<br>
+            <i class="fab fa-whatsapp"></i>+2348188837774
+        </p>
     </div>
-    <footer>
-        
-        <nav class="last">
-            <h2 class="last">
-                <p class="y">
-                    <a href="about.html" style="color: white;">About us</a>
-                    <a href="contact.html" style="color: white;">Contact us</a>
-                    <a href="privacy.html" style="color: white;">privacy-policy</a>
-                    <a href="advert.html" style="color: white;">Advertisement</a>
-                </p>
-               
-                   <p class="k"> <a href="#" style="color: white;">Disclaimer </a>|<a href="privacy.html" style="color: white;">Terms & Conditions</p>
-                            <p</a>
-                    </p>
-              
-                </h2>
-        </nav>
-        <p>&copy; 2024 DuniaNews.org. All rights reserved.</p>
-            <p>Design By FrankTech</p>
-        </div>
-    </footer>
 
-    <script>
-        // Example JavaScript for toggling navigation menu
-        document.getElementById('nav-toggle').addEventListener('click', function() {
-            document.getElementById('nav-links').classList.toggle('active');
-        });
-    </script>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Advert.html">Advertisement</a>
+            <a href="#">Disclaimer</a>
+            <a href="privacy.html">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2024 DuniaNews.org. All rights reserved.</p>
+        <p>Design by Franktech</p>
+    </footer>
+        <script>
+            // Example JavaScript for toggling navigation menu
+            document.getElementById('nav-toggle').addEventListener('click', function() {
+                document.getElementById('nav-links').classList.toggle('active');
+            });
+        </script>
 </body>
 </html>
